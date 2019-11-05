@@ -19,4 +19,48 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin-left: 20px;
   }
+
+  .button_container {
+      display: flex;
+      width: 8%;
+  }
+  .special_container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .number_button {
+    background: purple;
+    color: #fff;
+    margin: 0.2rem;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+
+  .operator_button {
+    background: teal;
+    color: #fff;
+    margin: 0.2rem;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+
+  .special_button {
+    background: #225d9e;
+    color: #fff;
+    margin: 0.2rem;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 29px;
+  }
+
