@@ -31,7 +31,7 @@ function App(props) {
         <Display numb={numDisplay} />
         <Specials/>
         <Operators/>
-        <Numbers />
+        <Numbers setNumDisplay={setNumDisplay}/>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>
