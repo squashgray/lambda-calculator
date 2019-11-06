@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 
 const NumberButton = (props) => {
+  
+  const [homeScore, setHome] = useState(0);
+  
   return (
-    <button className="number_button">
-      {props.button}
+    <button clicked={props.setHome}
+    className="number_button">
+      {props.numb}
     </button>
   );
 };

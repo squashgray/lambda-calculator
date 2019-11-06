@@ -5,11 +5,16 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    
+}
+.logo {
+  margin-top: 30px;
+  margin-left: 38px;
 }
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 410px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,7 +24,7 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 
   .button_container {
@@ -27,10 +32,11 @@
       width: 8%;
   }
   .special_container {
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 30px;
   }
 
 
@@ -55,12 +61,18 @@
   }
 
   .special_button {
-    background: #225d9e;
+    background: #235d9c;
+    height: 90px;
+    width: 90px;
+    
     color: #fff;
-    margin: 0.2rem;
+    margin-top: 30px;
+    margin-right:28px;
+    margin-bottom: 30px;
     padding: 15px;
-    font-size: 16px;
-    border: 1px solid black;
-    border-radius: 29px;
+    font-size: 35px;
+    border: none;
+    box-shadow: 1px 4px black;
+    border-radius: 50px;
   }
 
